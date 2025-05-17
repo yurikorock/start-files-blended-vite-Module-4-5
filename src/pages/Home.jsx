@@ -18,7 +18,7 @@ const Home = () => {
     };
     getData();
   }, []);
-  console.log(countries);
+
   return (
     <Section>
       <Container>

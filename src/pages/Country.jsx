@@ -1,8 +1,11 @@
+import { useParams } from 'react-router-dom';
 import Container from '../components/Container/Container';
 import Heading from '../components/Heading/Heading';
 import Section from '../components/Section/Section';
 
 const Country = () => {
+  const { countryId } = useParams();
+  console.log(countryId);
   return (
     <Section>
       <Container>
